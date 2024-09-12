@@ -1,0 +1,62 @@
+Para representar o algoritmo BFS em UML, podemos usar um diagrama de atividades que mostra o fluxo do algoritmo. Aqui está uma descrição textual do diagrama:
+
+Início: O algoritmo começa com a inicialização da fila e do conjunto de visitados.
+Adicionar Vértice Inicial: O vértice inicial é adicionado à fila e marcado como visitado.
+Enquanto a Fila Não Estiver Vazia: O algoritmo continua enquanto houver vértices na fila.
+Remover Vértice da Fila: O vértice na frente da fila é removido.
+Processar Vértice: O vértice é processado (neste caso, imprimimos o vértice).
+Adicionar Vizinhos Não Visitados: Todos os vizinhos não visitados do vértice atual são adicionados à fila e marcados como visitados.
+Fim: O algoritmo termina quando a fila está vazia.
+
+
++---------------------+
+| Início              |
++---------------------+
+          |
+          v
++---------------------+
+| Inicializar fila e  |
+| conjunto de visitados|
++---------------------+
+          |
+          v
++---------------------+
+| Adicionar vértice   |
+| inicial à fila e    |
+| marcar como visitado|
++---------------------+
+          |
+          v
++---------------------+
+| Enquanto a fila não |
+| estiver vazia       |
++---------------------+
+          |
+          v
++---------------------+
+| Remover vértice da  |
+| frente da fila      |
++---------------------+
+          |
+          v
++---------------------+
+| Processar vértice   |
++---------------------+
+          |
+          v
++---------------------+
+| Para cada vizinho   |
+| não visitado        |
++---------------------+
+          |
+          v
++---------------------+
+| Adicionar vizinho à |
+| fila e marcar como  |
+| visitado            |
++---------------------+
+          |
+          v
++---------------------+
+| Fim                 |
++---------------------+
