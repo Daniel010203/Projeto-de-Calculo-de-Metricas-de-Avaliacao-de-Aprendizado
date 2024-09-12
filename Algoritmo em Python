@@ -1,28 +1,24 @@
-from collections import deque
+from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 
-def bfs(graph, start):
-    visited = set()
-    queue = deque([start])
-    visited.add(start)
+# Exemplo de valores de verdadeiros positivos, falsos positivos, verdadeiros negativos e falsos negativos
+VP = 50
+FP = 10
+VN = 30
+FN = 5
 
-    while queue:
-        vertex = queue.popleft()
-        print(vertex, end=" ")
+# Matriz de confusão
+y_true = [1]*VP + [0]*VN + [1]*FN + [0]*FP
+y_pred = [1]*(VP+FP) + [0]*(VN+FN)
 
-        for neighbor in graph[vertex]:
-            if neighbor not in visited:
-                visited.add(neighbor)
-                queue.append(neighbor)
+# Cálculo das métricas
+conf_matrix = confusion_matrix(y_true, y_pred)
+accuracy = accuracy_score(y_true, y_pred)
+precision = precision_score(y_true, y_pred)
+recall = recall_score(y_true, y_pred)
+f1 = f1_score(y_true, y_pred)
 
-# Exemplo de grafo
-graph = {
-    'A': ['B', 'C'],
-    'B': ['A', 'D', 'E'],
-    'C': ['A', 'F'],
-    'D': ['B'],
-    'E': ['B', 'F'],
-    'F': ['C', 'E']
-}
-
-# Executando BFS a partir do vértice 'A'
-bfs(graph, 'A')
+print(f'Matriz de Confusão:\n{conf_matrix}')
+print(f'Acurácia: {accuracy}')
+print(f'Precisão: {precision}')
+print(f'Sensibilidade (Recall): {recall}')
+print(f'F-score: {f1}')
