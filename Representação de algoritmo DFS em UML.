@@ -1,0 +1,47 @@
+Explicação em UML
+Para representar o algoritmo DFS em UML, podemos usar um diagrama de atividades que mostra o fluxo do algoritmo. Aqui está uma descrição textual do diagrama:
+
+Início: O algoritmo começa com a inicialização do conjunto de visitados.
+Adicionar Vértice Inicial: O vértice inicial é adicionado ao conjunto de visitados.
+Explorar Vértice: O vértice atual é processado (neste caso, imprimimos o vértice).
+Para Cada Vizinho Não Visitado: O algoritmo chama recursivamente a função DFS para cada vizinho não visitado.
+Fim: O algoritmo termina quando todos os vértices acessíveis a partir do vértice inicial foram visitados.
+
++---------------------+
+| Início              |
++---------------------+
+          |
+          v
++---------------------+
+| Inicializar conjunto|
+| de visitados        |
++---------------------+
+          |
+          v
++---------------------+
+| Adicionar vértice   |
+| inicial ao conjunto |
+| de visitados        |
++---------------------+
+          |
+          v
++---------------------+
+| Explorar vértice    |
++---------------------+
+          |
+          v
++---------------------+
+| Para cada vizinho   |
+| não visitado        |
++---------------------+
+          |
+          v
++---------------------+
+| Chamar DFS          |
+| recursivamente      |
++---------------------+
+          |
+          v
++---------------------+
+| Fim                 |
++---------------------+
