@@ -73,24 +73,3 @@ Para um projeto completo, você pode utilizar dados reais de transporte, como os
 
 Se precisar de mais informações ou dados específicos, estou à disposição para ajudar!
 
-Fonte: conversa com o Copilot, 12/09/2024
-(1) 8 modelos de aprendizado de máquina explicados em 20 minutos. https://www.datacamp.com/pt/blog/machine-learning-models-explained.
-(2) Métricas de Aprendizado de Máquina: Como medir o sucesso do ... - Awari. https://awari.com.br/metricas-de-aprendizado-de-maquina-como-medir-o-sucesso-do-seu-modelo/.
-(3) Avaliação e Otimização de Modelos de Aprendizado de ... - Blog DNC. https://www.escoladnc.com.br/blog/avaliacao-e-otimizacao-de-modelos-de-aprendizado-de-maquina-guia-completo/.
-(4) (PDF) Métricas de avaliação em machine learning: acurácia .... https://www.academia.edu/50221775/M%C3%A9tricas_de_avalia%C3%A7%C3%A3o_em_machine_learning_acur%C3%A1cia_sensibilidade_precis%C3%A3o_especificidade_e_F_score.
-(5) Métricas de avaliação em machine learning – Diego Mariano. https://diegomariano.com/metricas-de-avaliacao-em-machine-learning/.
-(6) Análise de Métricas em Modelos de Machine Learning: Guia Prático em Python. https://www.escoladnc.com.br/blog/analise-de-metricas-em-modelos-de-machine-learning-guia-pratico-em-python/.
-(7) Introdução ao aprendizado de máquinas com Python - InfoQ. https://www.infoq.com/br/articles/ml-intro-python/.
-(8) Métricas populares de desempenho de aprendizado de máquina - ICHI.PRO. https://ichi.pro/pt/metricas-populares-de-desempenho-de-aprendizado-de-maquina-11184954707753.
-(9) Machine Learning Metrics: Métricas de Avaliação em Aprendizado de Máquina. https://awari.com.br/machine-learning-metrics-metricas-de-avaliacao-em-aprendizado-de-maquina-2/.
-(10) Métricas de Avaliação em Aprendizado de Máquina. https://comodesenvolver.com.br/metricas-de-avaliacao-em-aprendizado-de-maquina/.
-(11) SciELO - Brazil - Inteligência Artificial e Aprendizado de Máquina .... https://www.scielo.br/j/ea/a/wXBdv8yHBV9xHz8qG5RCgZd/.
-(12) Algoritmos de aprendizado de máquina supervisionados aplicados em .... https://lume.ufrgs.br/handle/10183/258392.
-(13) Métricas de distância | Diferentes métricas de distância no aprendizado .... https://datapeaker.com/pt/big--data/dist%C3%A2ncia-m%C3%A9tricas-diferentes-m%C3%A9tricas-de-dist%C3%A2ncia-no-aprendizado-de-m%C3%A1quina/.
-(14) undefined. https://doi.org/10.1590/s0103-4014.2021.35101.007.
-(15) undefined. https://doi.org/10.1007/BF00994018.
-(16) undefined. https://arxiv.org/abs/1810.04805.
-(17) undefined. https://doi.org/10.1038/s41467-021-21007-8.
-(18) undefined. https://doi.org/10.1007/s11023-020-09517-8.
-(19) undefined. https://arxiv.org/abs/2004.05439.
-(20) undefined. https://doi.org/10.1007/BF02478259.
